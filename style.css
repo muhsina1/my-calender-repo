@@ -1,0 +1,25 @@
+.calender{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 50px repeat(5, 75px);
+    row-gap: 20px;
+    column-gap: 10px;
+    
+}
+.date, .day{
+    background-color:darkslategray;
+    
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.other-month, .day{
+    background-color: darkgrey;
+}
+.day{
+    font-size: 1.5em;
+}
